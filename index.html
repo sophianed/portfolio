@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio cybersécurité d'Aissatou Sophiane Diop — systèmes, réseaux, audit et sécurité." />
+  <title>Aissatou Sophiane Diop | Cybersécurité</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="nav">
+    <a class="brand" href="#top">ASD<span>.</span></a>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#projects">Projets</a>
+      <a href="#skills">Compétences</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="#contact">Me contacter ↗</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="dot"></span> CYBERSÉCURITÉ · SYSTÈMES · RÉSEAUX</p>
+        <h1>Aissatou<br><span>Sophiane Diop</span></h1>
+        <p class="hero-text">
+          Étudiante en Master Expert en Cybersécurité, je conçois, sécurise et audite
+          des environnements systèmes et réseaux — de l'infrastructure à la détection.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Voir mes projets <span>↓</span></a>
+          <a class="btn ghost" href="#contact">Me contacter</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="terminal">
+          <div class="terminal-bar">
+            <div><i></i><i></i><i></i></div>
+            <span>security@asd:~</span>
+          </div>
+          <div class="terminal-body">
+            <p><b>$</b> whoami</p>
+            <p class="output">aissatou_sophiane_diop</p>
+            <p><b>$</b> cat focus.txt</p>
+            <p class="output">cybersecurity / networks / linux</p>
+            <p><b>$</b> status --current</p>
+            <p class="output success">● disponible pour une alternance</p>
+            <p><b>$</b> location</p>
+            <p class="output">Lyon · mobile France</p>
+            <p class="cursor"><b>$</b> <span></span></p>
+          </div>
+        </div>
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+      </div>
+
+      <div class="scroll-note">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-index">01 / À PROPOS</div>
+      <div class="about-grid">
+        <h2 class="reveal">Sécuriser.<br>Comprendre.<br><span>Anticiper.</span></h2>
+        <div class="about-copy reveal">
+          <p>
+            Mon parcours en administration et sécurité des réseaux m'a donné une base
+            technique solide en systèmes, réseau et cybersécurité. Aujourd'hui, je poursuis
+            cette spécialisation en Master Expert en Cybersécurité.
+          </p>
+          <p>
+            J'aime comprendre comment une infrastructure fonctionne, identifier ses
+            faiblesses puis construire des protections concrètes : durcissement,
+            segmentation, chiffrement, contrôle d'accès, supervision et audit.
+          </p>
+          <div class="facts">
+            <div><strong>M2</strong><span>Expert en cybersécurité</span></div>
+            <div><strong>FR</strong><span>Mobilité nationale</span></div>
+            <div><strong>∞</strong><span>Curiosité technique</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-head">
+        <div class="section-index">02 / PROJETS SÉLECTIONNÉS</div>
+        <p>Une sélection volontairement courte : les projets les plus démonstratifs techniquement.</p>
+      </div>
+
+      <article class="project featured reveal">
+        <div class="project-number">01</div>
+        <div class="project-content">
+          <p class="project-type">INFRASTRUCTURE · CRYPTOGRAPHIE · SÉCURITÉ WEB</p>
+          <h3>Infrastructure PKI<br>avec EJBCA</h3>
+          <p>
+            Étude et mise en place d'une infrastructure à clés publiques : déploiement
+            d'EJBCA, création d'une autorité de certification, gestion de certificats
+            X.509 et sécurisation d'un serveur Apache en HTTPS.
+          </p>
+          <div class="tags">
+            <span>EJBCA</span><span>Docker</span><span>Apache</span>
+            <span>SSL/TLS</span><span>X.509</span><span>PKI</span>
+          </div>
+          <button class="project-link" data-project="pki">Voir l'étude de cas <span>↗</span></button>
+        </div>
+        <div class="project-art pki-art" aria-hidden="true">
+          <div class="cert cert-1"><span>ROOT CA</span><i></i></div>
+          <div class="cert cert-2"><span>X.509</span><i></i></div>
+          <div class="cert cert-3"><span>HTTPS</span><i></i></div>
+          <svg viewBox="0 0 500 360">
+            <path d="M105 180 L250 95 L395 180 L250 265 Z" />
+            <path d="M250 95 L250 265" />
+            <path d="M105 180 L395 180" />
+          </svg>
+        </div>
+      </article>
+
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-number">02</div>
+          <p class="project-type">NETWORK SECURITY · LAYER 2</p>
+          <h3>Attaques & sécurité des switches</h3>
+          <p>Étude des attaques de niveau 2 et des mécanismes de protection d'un réseau commuté.</p>
+          <div class="tags">
+            <span>VLAN</span><span>ARP</span><span>Port Security</span><span>802.1X</span>
+          </div>
+          <button class="project-link" data-project="switch">Explorer <span>↗</span></button>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-number">03</div>
+          <p class="project-type">AUDIT · DETECTION</p>
+          <h3>Audit & détection d'intrusions</h3>
+          <p>Scan, contrôle d'intégrité, analyse de vulnérabilités et règles de détection réseau.</p>
+          <div class="tags">
+            <span>Nmap</span><span>Nessus</span><span>Snort</span><span>AIDE</span>
+          </div>
+          <button class="project-link" data-project="audit">Explorer <span>↗</span></button>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-number">04</div>
+          <p class="project-type">LINUX · FIREWALL · NETWORKING</p>
+          <h3>Durcissement réseau Linux</h3>
+          <p>Filtrage et contrôle des flux avec Netfilter/Iptables, NAT, DMZ, bastion et proxy.</p>
+          <div class="tags">
+            <span>Linux</span><span>Iptables</span><span>Netfilter</span><span>Squid</span>
+          </div>
+          <button class="project-link" data-project="linux">Explorer <span>↗</span></button>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-number">05</div>
+          <p class="project-type">GRC · RÉSILIENCE · IT/OT/IoT</p>
+          <h3>PteroPark — sécurisation du SI</h3>
+          <p>Analyse des risques, architecture sécurisée, IAM et préparation de la continuité d'activité.</p>
+          <div class="tags">
+            <span>Risk</span><span>IAM</span><span>PRA/PCA</span><span>IT/OT/IoT</span>
+          </div>
+          <button class="project-link" data-project="ptero">Explorer <span>↗</span></button>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-index">03 / COMPÉTENCES</div>
+      <div class="skills-layout">
+        <h2 class="reveal">Mon terrain<br><span>technique.</span></h2>
+        <div class="skill-groups reveal">
+          <div>
+            <p>01 — SYSTÈMES</p>
+            <h3>Linux · Windows Server · Active Directory · GPO · DNS · DHCP · LDAP</h3>
+          </div>
+          <div>
+            <p>02 — RÉSEAUX</p>
+            <h3>TCP/IP · VLAN · Cisco · ACL · SNMP · Wireshark · VPN</h3>
+          </div>
+          <div>
+            <p>03 — CYBERSÉCURITÉ</p>
+            <h3>Nmap · Metasploit · Burp Suite · OWASP ZAP · SSL/TLS · Wazuh · Elasticsearch</h3>
+          </div>
+          <div>
+            <p>04 — OUTILS & DATA</p>
+            <h3>VMware · Docker · SQL · Python · PowerShell · Bash · ETL · PySpark</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <p class="section-index">04 / CONTACT</p>
+
+<div class="contact-wrap reveal">
+    <p>UNE OPPORTUNITÉ, UN PROJET, UN ÉCHANGE ?</p>
+
+    <h2>
+        Construisons quelque chose<br>
+        <span>de sécurisé.</span>
+    </h2>
+
+    <!-- EMAIL -->
+    <a href="mailto:sophianed01@gmail.com" class="email">
+        sophianed01@gmail.com
+    </a>
+
+    <br><br>
+
+    <!-- TÉLÉPHONE -->
+    <a href="tel:+33751469927" class="email">
+        +33 7 51 46 99 27
+    </a>
+
+    <br><br>
+
+    <!-- LINKEDIN -->
+    <a href="https://www.linkedin.com/in/aissatou-sophiane-diop/"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="email">
+        LinkedIn ↗
+    </a>
+</div>
+
+</a>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Aissatou Sophiane Diop</p>
+    <p>CYBERSECURITY PORTFOLIO · LYON, FRANCE</p>
+  </footer>
+
+  <dialog id="projectModal">
+    <button class="close" aria-label="Fermer">×</button>
+    <div id="modalContent"></div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
